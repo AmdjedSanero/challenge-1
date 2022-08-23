@@ -87,6 +87,8 @@ a.blue {
 }
 .image img {
   width: 700px;
+  position: relative;
+  left: -117px;
 }
 .image::before {
   position: absolute;
@@ -98,10 +100,11 @@ a.blue {
   border-radius: 50px;
   transform: rotate(140deg);
   border-color: transparent #312b86 #312b86 transparent;
-  border-width: 0px 3030px 2564px 0px;
+  border-width: 0px 3262px 2564px 0px;
   border-style: solid;
-  left: 362px;
+  left: 233px;
 }
+
 .text .title {
   font-size: 60px;
   color: #312b86;
